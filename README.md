@@ -1,8 +1,8 @@
 # originstamp-proof
 
-This is a repository of storing the [OriginStamp](https://originstamp.com/) SHA256 hash and corresponding proof files of some of my important documents and source codes. There is also a python code `originstamp-proof-to-address.py` to **compute everything indepenedent of OriginStamp**. Just in case OriginStamp goes bankrupt or disappears, a backup of all Bitcoin-transactions should be available somewhere on the Internet to prove the timestamp.
+It is a repository of storing the [OriginStamp](https://originstamp.com/) SHA256 hash and corresponding proof files of some of my important documents and source codes. There is also a python code `originstamp-proof-to-address.py` to **compute everything independent of OriginStamp**. Just in case OriginStamp goes bankrupt or disappears, a backup of all Bitcoin-transactions should be available somewhere on the Internet to prove the timestamp.
 
-I want to prove to the world that such documents and source codes **exists before a specific date**. The reason for the proof is a complex legal and personal matters which I will not disclose until a tragic event happens.
+I want to prove to the world that such documents and source codes **exist before a specific date**. The reason for the proof is a complex legal and personal matters which I will not disclose unless a tragic event happens.
 
 # What is OriginStamp?
 
