@@ -26,7 +26,7 @@ The basic usage is
 $ python3 originstamp-proof-to-address.py (proof file) (file or hash to verify)
 ```
 
-Unless a tragic event happen, the original documents and the source codes will not be available to the public. Only their SHA256 are open.
+Unless a tragic event happen, the original documents and the source codes will not be available to the public. Only their SHA256 (and proof files) are open.
 But, as an example to show what it is going on, the file `originstamp-proof-to-address.py` itself is timestamped as an example:
 
 ```
