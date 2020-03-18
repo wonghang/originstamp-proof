@@ -6,7 +6,7 @@ I want to prove to the world that such documents and source codes **exist before
 
 # What is OriginStamp?
 
-OriginStamp is a service provided by a Switzerland company to create a [trusted timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping) service. It works by computing a SHA256 hash of a file, and then include it in a cryptocurrency transaction. Because compromising a blockchain-based ledger system is difficult. The cryptocurrency transaction acts as a tamper-proof timestamp.  For the technical details on how to compute the the hash and the final bitcoin address, please refer to the guide provided by OriginStamp [here](https://docs.originstamp.com/guide/originstamp.html#preparation-of-digital-content) or the file `originstamp-proof-to-address.py`.
+OriginStamp is a service provided by a Switzerland company to create a [trusted timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping) service. It works by computing a SHA256 hash of a file, and then use [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree) to include it in a cryptocurrency transaction. Because compromising a blockchain-based ledger system is difficult. The cryptocurrency transaction acts as a tamper-proof timestamp.  For the technical details on how to compute the the hash and the final bitcoin address, please refer to the guide provided by OriginStamp [here](https://docs.originstamp.com/guide/originstamp.html#preparation-of-digital-content) or the file `originstamp-proof-to-address.py`.
 
 Please note that OriginStamp supports several cryptocurrency and I only implemented Bitcoin in `originstamp-proof-to-address.py`. Other cryptocurrency proof file are in the subdirectories.
 
