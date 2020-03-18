@@ -45,5 +45,4 @@ $
 
 | File | Corresponding Transaction  | Timestamp (UTC) |
 | --- | --- | --- | 
-| originstamp-proof-to-address.py | [9665d28ab70f9d9b75bcb014348331b44c907c91a225f316205d390b1890ff3e](https://www.blockchain.com/btc/tx/9665d28ab70f9d9b75bcb014348331b44c907c91a225f316205d390b1890ff3e) | 
-2020-03-18 00:00  |
+| originstamp-proof-to-address.py | [9665d28ab70f9d9b75bcb014348331b44c907c91a225f316205d390b1890ff3e](https://www.blockchain.com/btc/tx/9665d28ab70f9d9b75bcb014348331b44c907c91a225f316205d390b1890ff3e) | 2020-03-18 00:00  |
