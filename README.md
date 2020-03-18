@@ -39,9 +39,11 @@ $
 
 # What are the files?
 
-| File | SHA256 hash |
-| --- | --- | 
-| originstamp-proof-to-address.py | 68f5f784c76a6caaa236acfa7ec68fc7efa046a28dc82e8cd6acd5b0a04d80cd | 
+## SHA256 hash
+
+| File | SHA256 hash | Bitcoin address
+| --- | --- |  --- |
+| originstamp-proof-to-address.py | 68f5f784c76a6caaa236acfa7ec68fc7efa046a28dc82e8cd6acd5b0a04d80cd | 1CPjACYh4ZfK4rQNM9PRCS8GJdHKXX2QG7 |
 
 ## Corresponding Transaction (Bitcoin only)
 
