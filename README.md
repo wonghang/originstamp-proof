@@ -37,7 +37,7 @@ https://www.blockchain.com/btc/address/1CPjACYh4ZfK4rQNM9PRCS8GJdHKXX2QG7
 $ 
 ```
 
-If I release those files to the public, one can write to compute all the hash and Bitcoin address using Bash shell as follow:
+If I release those files to the public, one can compute all the hashes and Bitcoin addresses using a bash script as follow:
 
 ```bash
 for i in /path/to/those/files/*
