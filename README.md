@@ -2,13 +2,13 @@
 
 It is a repository of storing the [OriginStamp](https://originstamp.com/) SHA256 hash and corresponding proof files of some of my important documents and source codes. There is also a python code `originstamp-proof-to-address.py` to **compute everything independent of OriginStamp**. Just in case OriginStamp goes bankrupt or disappears, a backup of all Bitcoin-transactions  (and other cryptocurrency transactions) should be available somewhere on the Internet to prove the timestamp.
 
-I want to prove to the world that such documents and source codes **exist before a specific date**. The reason for the proof is a complex legal and personal matters which I will not disclose now.
+I want to prove to the world that such documents and source codes **exist before a specific date**. The reason for the proof is a complex legal and personal matter which I will not disclose now.
 
 # What is OriginStamp?
 
-OriginStamp is a service provided by a Switzerland company to create a [trusted timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping) service. It works by computing a SHA256 hash of a file, and then use [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree) to include it in a cryptocurrency transaction. Because compromising a blockchain-based ledger system is difficult. The cryptocurrency transaction acts as a tamper-proof timestamp.  For the technical details on how to compute the the hash and the final bitcoin address, please refer to the guide provided by OriginStamp [here](https://docs.originstamp.com/guide/originstamp.html#preparation-of-digital-content) or the file `originstamp-proof-to-address.py`.
+OriginStamp is a service provided by a Switzerland company to create a [trusted timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping) service. It works by computing a SHA256 hash of a file and then use [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree) to include it in a cryptocurrency transaction. Because compromising a blockchain-based ledger system is virtually impossible. The cryptocurrency transaction acts as a tamper-proof timestamp.  For the technical details on computing the hash and the final bitcoin address, please refer to the guide provided by OriginStamp [here](https://docs.originstamp.com/guide/originstamp.html#preparation-of-digital-content) or the file `originstamp-proof-to-address.py`.
 
-Please note that OriginStamp supports several cryptocurrency and I only implemented Bitcoin in `originstamp-proof-to-address.py`. Other cryptocurrency proof file are in the subdirectories.
+Please note that OriginStamp supports several cryptocurrencies, and I only implemented Bitcoin in `originstamp-proof-to-address.py`. Other cryptocurrency-proof files are in the subdirectories.
 
 # Requirements
 
@@ -26,8 +26,8 @@ The basic usage is
 $ python3 originstamp-proof-to-address.py (proof file) (file or hash to verify)
 ```
 
-Unless something happens, the original documents and the source codes will not be available to the public. Only their SHA256 (and proof files) are open.
-But, as an example to show what it is going on, the file `originstamp-proof-to-address.py` itself is timestamped as an example:
+Unless **an unwanted event** happens, the original documents and the source codes will not be available to the public. Only their SHA256 (and proof files) are open.
+But, as an example to show what is going on, the file `originstamp-proof-to-address.py` itself is timestamped as an example:
 
 ```
 $ python3 originstamp-proof-to-address.py originstamp-proof-to-address.py.xml originstamp-proof-to-address.py
@@ -141,7 +141,7 @@ Bitcoin address: 139DGkJExFW29LAmG1MjyNuuAyMQD2BRTU
 https://www.blockchain.com/btc/address/139DGkJExFW29LAmG1MjyNuuAyMQD2BRTU
 ```
 
-The code `originstamp-proof-to-address.py` is open source here, therefore the integrity of my code  is self-evident. One can also check the integrity from [OriginStamp](https://originstamp.com/).
+The code `originstamp-proof-to-address.py` is open source here, therefore the integrity of my code is self-evident. One can also check the integrity from [OriginStamp](https://originstamp.com/).
 
 # What are the files?
 
